@@ -2,13 +2,15 @@
 <head>
 <script src="/assets/jquery.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
 <style>
   body { 
   margin:0 auto; 
   text-align:center; 
   font-family: 'Audiowide', cursive;
-  background-size: 500px;
+  background-size: 1000px;
+  background-repeat: no-repeat;
+    background-position: center top;
   background-image:url("http://1.bp.blogspot.com/-pJZWFOkGckQ/T3W5xXfa7nI/AAAAAAAABRU/ox0ctDMKNsY/s1600/GenevieveSantos.jpg");
 } 
 ul {
@@ -41,9 +43,9 @@ text-align:center;
   color: black;
  }
 div {
-   { 
-margin:0 auto; 
-      position: relative;
+  font-family: 'Audiowide', cursive;
+  margin:0 auto; 
+  position: relative;
   height: 300px;
   width: 1000px;
   background-size: relative;
@@ -51,40 +53,18 @@ margin:0 auto;
   border-radius: 40px;
 }
 p {
- text-align:center;
-    margin:0 auto; 
-   background:-webkit-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
-  background:-o-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
-  background:-moz-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
-  color: rgba(255,255,255,1);
-  opacity: .9;
-  background: black;
-  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  font-family: 'Audiowide', cursive;
+  text-align: center;
+    top: 99999999px;
+    margin: 0 auto; 
+  max-width: 1000px;
   padding: 5px;
-  line-height: 28px;
+      line-height: 28px;
   bottom: 0;
-  margin: 0;
   height: 31px;
   width: 1000px; 
   transition: height .5s;
   border-radius: 0;
-}
-small {
-  opacity: 0;
-}
-.show-description p {
-  height: 250px;
-}
-.show-description small {
-  opacity: 1;
-}
-    
-.first{
-  background-repeat: no-repeat;
-  background-size: 400
-}
-.date {
-  float: right;
 }
 </style>
 </head>
@@ -98,8 +78,7 @@ small {
       <li><a href="#"><a href="http://valentinesday.github.io/00111111/">00111111</a></li>
       <li><a href="#"><a href="http://valentinesday.github.io/Mad-Libs">Mad Libs</a></li>
 <div class="first">
-  <p>00111111<br />
-  <small>01001001 00100000 01101100 01101111 01110110 01100101 00100000 01111001 01101111 01110101 00101100 00100000 01001101 01101001 01101011 01100101 00100001
+  <p>00111111<br /> 01001001 00100000 01101100 01101111 01110110 01100101 00100000 01111001 01101111 01110101 00101100 00100000 01001101 01101001 01101011 01100101 00100001
 </small></p>
 <script>
   $('div').on('click', function() {
